@@ -24,6 +24,7 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback {
     public PipeSprite pipe1, pipe2, pipe3;
     public static int gapHeight = 500;
     public static int velocity = 10;
+    public static int flapDistance = 10;
     private int screenHeight = Resources.getSystem().getDisplayMetrics().heightPixels;
     private int screenWidth = Resources.getSystem().getDisplayMetrics().widthPixels;
 
@@ -63,7 +64,7 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback {
     @Override
     public boolean onTouchEvent(MotionEvent event)
     {
-        characterSprite.y = characterSprite.y - (characterSprite.yVelocity * 10);
+        characterSprite.y = characterSprite.y - (characterSprite.yVelocity * flapDistance);
         return super.onTouchEvent(event);
     }
 
