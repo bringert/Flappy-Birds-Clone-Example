@@ -1,10 +1,8 @@
-package com.androidauthority.a2dgame;
+package net.bringert.flappymouse;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
-import android.graphics.Matrix;
-import android.hardware.SensorManager;
 
 /**
  * Created by rushd on 7/5/2017.

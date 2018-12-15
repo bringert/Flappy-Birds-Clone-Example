@@ -1,9 +1,8 @@
-package com.androidauthority.a2dgame;
+package net.bringert.flappymouse;
 
 
 import android.graphics.Canvas;
 import android.view.SurfaceHolder;
-import android.widget.ListView;
 
 /**
  * Created by rushd on 7/5/2017.

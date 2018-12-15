@@ -1,4 +1,4 @@
-package com.androidauthority.a2dgame;
+package net.bringert.flappymouse;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
